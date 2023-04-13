@@ -1,8 +1,25 @@
+
+
 # 写在最前（一定要看）
 {% note warning no-icon %}
 1. 不建议把业务代码写在`Controller`层，不然以后想复用的时候就会很麻烦的！！！我的建议是写在Service层，这样复用性更高，`Controller`里直接`@Autowired`自动装配，然后随便调方法，主要是可以跨`Controller`用，我这里是图方便才写在Controller层的，别学我啊！！
 2. 如果你后面想做`逻辑删除`，要在模型类中加入`isDelete`字段，黑马给的资料的模型类里没有逻辑删除属性，但数据表里有
 3. 全功能实现源码链接：https://pan.baidu.com/s/11X9aKxFb07AwhhQKjsbubQ?pwd=2077 提取码：2077
+4. 原文地址：https://cyborg2077.github.io/2022/09/29/ReggieTakeOut/， 可以获得更好的阅读体验
+5. 另一个实战项目：https://github.com/Cyborg2077/xuecheng-plus
+6. 我的其他文章
+	- Spring：https://cyborg2077.github.io/2022/08/29/Spring/
+	- SprinMVC：https://cyborg2077.github.io/2022/09/08/SpringMVC/
+	- SSM整合：https://cyborg2077.github.io/2022/09/10/SSMIntegration/
+	- Mavne高级：https://cyborg2077.github.io/2022/09/13/MavenSenior/
+	- SpringBoot：https://cyborg2077.github.io/2022/09/14/SpringBoot/
+	- MyBatisPlus：https://cyborg2077.github.io/2022/09/20/MyBatisPlus/
+	- Redis基础篇：https://cyborg2077.github.io/2022/10/21/RedisBasic/
+	- Redis实战篇：https://cyborg2077.github.io/2022/10/22/RedisPractice/
+	- Docker：https://cyborg2077.github.io/2022/12/21/Docker/
+	- MQ：https://cyborg2077.github.io/2022/12/22/MeassageQueue/
+	- ElasticSearch：https://cyborg2077.github.io/2022/12/24/ElasticSearch/
+7. 更多文章请关注我的个人博客：https://cyborg2077.github.io/
 {% endnote %}
 
 
